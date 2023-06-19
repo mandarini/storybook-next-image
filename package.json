@@ -4,8 +4,9 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
   "devDependencies": {
+    "@nx/next": "^16.4.0-beta.10",
+    "@nx/storybook": "^16.4.0-beta.10",
     "@nx/workspace": "16.4.0-beta.10",
     "nx": "16.4.0-beta.10",
     "nx-cloud": "latest"
