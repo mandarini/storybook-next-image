@@ -10,3 +10,9 @@ Show that Nx + Next.js + Storybook + Image import works.
 4. Add image import in component --> see [my-component.tsx](apps/myapp/components/my-component/my-component.tsx)
 5. Generate Storybook configuration with `nx g @nx/react:storybook-configuration myapp`
 6. Run Storybook with `nx storybook myapp`
+
+## Result
+
+Storybook loads the image correctly:
+
+![Storybook screenshot](screenshot.png)
