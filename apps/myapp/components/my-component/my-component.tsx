@@ -1,14 +1,6 @@
-import styles from './my-component.module.css';
+import Image from 'next/image';
+import myImage from '../../public/kitten.jpeg';
 
-/* eslint-disable-next-line */
-export interface MyComponentProps {}
-
-export function MyComponent(props: MyComponentProps) {
-  return (
-    <div className={styles['container']}>
-      <h1>Welcome to MyComponent!</h1>
-    </div>
-  );
-}
-
-export default MyComponent;
+export const MyComponent = () => (
+  <Image src={myImage} alt="myImage" width={50} height={50} />
+);
