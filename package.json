@@ -1,0 +1,13 @@
+{
+  "name": "@sb-next-image/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "@nx/workspace": "16.4.0-beta.10",
+    "nx": "16.4.0-beta.10",
+    "nx-cloud": "latest"
+  }
+}
